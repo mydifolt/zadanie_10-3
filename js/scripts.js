@@ -1,6 +1,5 @@
 $(function(){
 	var carouselList = $("#carousel ul");
-	setTimeout(changeSlide, 3000);
 	setInterval(changeSlide, 3000);
 
 	function changeSlide() {
