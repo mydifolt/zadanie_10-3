@@ -1,8 +1,13 @@
-.carousel {
+body {
+    text-align: center;
+	display: block;
+	margin-top: 200px;
+}
+#carousel {
 	width: 400px;
   	height: 300px;
 	text-align: center;
-	overflow: scroll;
+	overflow: hidden ;
 }
 ul {
 	width: 2000px;
@@ -12,5 +17,8 @@ li {
 	width: 400px
 	height: 300px;
 	list-style: none;
+	float: left;
+}
+#carousel ul li {
 	float: left;
 }
